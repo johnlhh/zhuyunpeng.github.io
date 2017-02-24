@@ -20,55 +20,68 @@
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/myjs.js"></script>
 
 </head>
 <body>
+<!-- Static navbar -->
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#home">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#home">Home</a></li>
+                <li id="ab"><a href="#about" onclick="showAbout()">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../navbar/">Default</a></li>
+                <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
+                <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+
 
 <div class="container">
 
-    <div class="row">
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron" id="home">
+        <h1>HOME example</h1>
+
+        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It
+            includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+
+        <p>To see the difference between static and fixed top navbars, just scroll.</p>
 
 
-        <!--导航-->
-        <ul class="nav nav-pills nav-justified">
-            <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-            <li><a data-toggle="tab" href="#menu1">菜单 1</a></li>
-            <li><a data-toggle="tab" href="#menu2">菜单 2</a></li>
-            <li><a data-toggle="tab" href="#menu3">菜单 3</a></li>
-            <li><a data-toggle="tab" href="#menu3">菜单 3</a></li>
-            <li><a data-toggle="tab" href="#menu3">菜单 3</a></li>
-            <li><a data-toggle="tab" href="#menu3">菜单 3</a></li>
-        </ul>
     </div>
+    <div class="jumbotron" id="about" hidden="hidden">
+        <h1>about example</h1>
 
-    <!--内容显示-->
-    <div class="row">
-        <div class="tab-content">
-            <div id="home" class="tab-pane fade in active">
-                <h3>首页</h3>
+        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It
+            includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
 
-                <p>菜鸟教程 —— 学的不仅是技术，更是梦想！！！</p>
-            </div>
-            <div id="menu1" class="tab-pane fade">
-                <h3>菜单 1</h3>
+        <p>To see the difference between static and fixed top navbars, just scroll.</p>
 
-                <p>这是菜单 1 显示的内容。这是菜单 1 显示的内容。这是菜单 1 显示的内容。</p>
-            </div>
-            <div id="menu2" class="tab-pane fade">
-                <h3>菜单 2</h3>
 
-                <p>这是菜单 2 显示的内容。这是菜单 2 显示的内容。这是菜单 2 显示的内容。</p>
-            </div>
-            <div id="menu3" class="tab-pane fade">
-                <h3>菜单 3</h3>
-
-                <p>这是菜单 3 显示的内容。这是菜单 3 显示的内容。这是菜单 3 显示的内容。</p>
-            </div>
-        </div>
     </div>
+    <div class="jumbotron" id="contact" hidden="hidden">
+        <h1>about example</h1>
+
+        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It
+            includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+
+        <p>To see the difference between static and fixed top navbars, just scroll.</p>
 
 
+    </div>
 </div>
+<!-- /container -->
 
 </body>
 </html>
