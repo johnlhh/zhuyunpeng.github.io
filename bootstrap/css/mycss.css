@@ -1,5 +1,46 @@
-body{
-    height: 100%;
-    background-color: white;
-    }
 
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #358;
+    color: white;
+}
+/* Custom container */
+.container-narrow {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.center {
+    margin: 60px 0;
+    text-align: center;
+}
+.center h2 {
+    font-size: 50px;
+    line-height: 1;
+}
+.center .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+.center p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Supporting marketing content */
+.detailSpan {
+    margin: 10px 0;
+}
+.detailSpan h3 + p {
+    margin-top: 30px;
+}
+
+.footer{
+    text-align: right;
+    font-family:Consolas;
+}
