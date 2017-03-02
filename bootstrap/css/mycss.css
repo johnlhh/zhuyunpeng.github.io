@@ -49,10 +49,14 @@ body {
     font-family:Consolas;
 }
 
+.modal{
+    top:100px;
+}
+
 .modal-content{
     color: ghostwhite;
-    background: -webkit-linear-gradient(#CC00FF,#359); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(#CC00FF,#359); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(#CC00FF,#359); /* Firefox 3.6 - 15 */
-    background: linear-gradient(#CC00FF,#359 ); /* 标准的语法 */
+    background: -webkit-linear-gradient(#577492,#359); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#577492,#359); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#577492,#359); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#577492,#359 ); /* 标准的语法 */
 }
