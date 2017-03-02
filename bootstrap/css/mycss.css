@@ -38,10 +38,10 @@ body {
 
 /* Supporting marketing content */
 .detailSpan {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 .detailSpan h3 + p {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .footer{
@@ -59,4 +59,7 @@ body {
     background: -o-linear-gradient(#577492,#359); /* Opera 11.1 - 12.0 */
     background: -moz-linear-gradient(#577492,#359); /* Firefox 3.6 - 15 */
     background: linear-gradient(#577492,#359 ); /* 标准的语法 */
+}
+i{
+    color: #400000;
 }
