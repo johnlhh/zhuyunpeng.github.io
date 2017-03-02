@@ -28,9 +28,7 @@
     <div class="row">
         <div class="masthead">
             <ul class="nav nav-pills pull-right">
-                <li class="active"><a href="#"><b>主页</b></a></li>
-                <li><a href="#"><b>关于</b></a></li>
-                <li><a href="#"><b>联系</b></a></li>
+                <li class="active"><a href="#detailSpan"><b>Detail</b></a></li>
             </ul>
             <h2 class="muted">
                 Hello World
@@ -51,19 +49,19 @@
 
     <hr>
     <div class="row">
-        <div class="detailSpan">
+        <div id="detailSpan" class="detailSpan">
             <div class="col-md-6 col-lg-6">
 
                 <!-------------------------------------------------------------------------------------------------------------------------------------------->
                 <h3><span class="glyphicon glyphicon-user" aria-hidden="true"/> 基本信息</h3>
 
                 <p>
-                    <a href="#">这里有我的基本信息，如果你有兴趣的话可以瞧一瞧哦</a>
+                    <small><i>这里有我的基本信息，如果你有兴趣的话可以瞧一瞧哦</i></small>
                 </p>
 
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
-                    Launch demo modal
+                    Basic Information <span class="glyphicon glyphicon-menu-right" aria-hidden="true"/>
                 </button>
 
                 <!-- Modal -->
@@ -109,11 +107,11 @@
                 <h3><span class="glyphicon glyphicon-education" aria-hidden="true"/> 教育经历</h3>
 
                 <p>
-                    <a href="#myModal2" data-toggle="modal" data-target="#myModal2">如果你很好奇我的学历，你可以来这逛逛</a>
+                    <small><i>这里有我念过的大学，学的课程以及在大学时期的表现</i></small>
                 </p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
-                    Launch demo modal
+                    Edution Experience <span class="glyphicon glyphicon-menu-right" aria-hidden="true"/>
                 </button>
 
                 <!-- Modal -->
@@ -165,12 +163,12 @@
                 <h3><span class="glyphicon glyphicon-heart" aria-hidden="true"/> 兴趣爱好</h3>
 
                 <p>
-                    <a href="#">工作日之余的爱好</a>
+                    <small><i>生活的方式不只有工作，还有爱好</i></small>
                 </p>
 
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">
-                    Launch demo modal
+                    Personal Hobby <span class="glyphicon glyphicon-menu-right" aria-hidden="true"/>
                 </button>
 
                 <!-- Modal -->
@@ -183,7 +181,16 @@
                                 <h3 class="modal-title"><span class="glyphicon glyphicon-heart" aria-hidden="true"/> 兴趣爱好</h3>
                             </div>
                             <div class="modal-body">
-                                <p>One fine body&hellip;</p>
+                                <h4>兴趣爱好：</h4>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为一名程序员，工作的时候一坐就是一天，
+                                    所以周末我常去运动运动，每周都会去打篮球。
+                                    除此之外我还比较喜欢看电影，尤其是科幻片间谍烧脑片</p><br>
+                                <h4>自我评价：</h4>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;做事自觉，仔细。善于听取别人的意见，充分理解团队协作的重要性。
+                                    性格相对开放，不会很开放也不会很闷，真诚富有责任心，有良好的编程习惯，善于学习</p>
+                            </div>
+                            <div class="modal-footer">
+                                Personal Hobby
                             </div>
                         </div>
                         <!-- /.modal-content -->
@@ -205,7 +212,7 @@
                 </p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal4">
-                    Launch demo modal
+                    Work Experience <span class="glyphicon glyphicon-menu-right" aria-hidden="true"/>
                 </button>
 
                 <!-- Modal -->
@@ -237,7 +244,7 @@
                 </p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal5">
-                    Launch demo modal
+                    Professional Skills <span class="glyphicon glyphicon-menu-right" aria-hidden="true"/>
                 </button>
 
                 <!-- Modal -->
@@ -268,7 +275,7 @@
                 </p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal6">
-                    Launch demo modal
+                    Career Planning <span class="glyphicon glyphicon-menu-right" aria-hidden="true"/>
                 </button>
 
                 <!-- Modal -->
