@@ -77,3 +77,10 @@ a{
 a:hover{
     color: white;
 }
+#myModal5 li{
+    margin-top: 10px;
+}
+.dl-horizontal{
+    line-height: 20px;
+}
+
