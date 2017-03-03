@@ -54,10 +54,10 @@ body {
 
 .modal-content{
     color: ghostwhite;
-    background: -webkit-linear-gradient(#577492,#359); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(#577492,#359); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(#577492,#359); /* Firefox 3.6 - 15 */
-    background: linear-gradient(#577492,#359 ); /* 标准的语�? */
+    background: -webkit-linear-gradient(#577492,#218888); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#577492,#218888); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#577492,#218888); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#577492,#218888 ); /* 标准的语�? */
 }
 i{
     color: #400000;
