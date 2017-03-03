@@ -2,13 +2,16 @@
 body {
     padding-top: 20px;
     padding-bottom: 20px;
-    /*background-color: #358;*/
+    background-color: #218868;
     color: white;
-    background: -webkit-linear-gradient(#218868,#359); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(#218868,#359); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(#218868,#359); /* Firefox 3.6 - 15 */
-    background: linear-gradient(#218868,#359 ); /* 标准的语�? */
+    /*background: -webkit-linear-gradient(#218868,#359);  Safari 5.1 - 6.0 */
+    /*background: -o-linear-gradient(#218868,#359);  Opera 11.1 - 12.0 */
+    /*background: -moz-linear-gradient(#218868,#359);  Firefox 3.6 - 15 */
+    /*background: linear-gradient(#218868,#359 );  标准的语�? */
     font-family:"微软雅黑","黑体","宋体";
+}
+.btn{
+    background-color:#218868 ;
 }
 
         /* Custom container */
