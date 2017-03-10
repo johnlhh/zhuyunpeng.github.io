@@ -2,7 +2,7 @@
 body {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #218868;
+    background-color: #336699;
     color: white;
     /*background: -webkit-linear-gradient(#218868,#359);  Safari 5.1 - 6.0 */
     /*background: -o-linear-gradient(#218868,#359);  Opera 11.1 - 12.0 */
@@ -11,7 +11,7 @@ body {
     font-family:"微软雅黑","黑体","宋体";
 }
 .btn{
-    background-color:#218868 ;
+    background-color:#336699 ;
 }
 
         /* Custom container */
