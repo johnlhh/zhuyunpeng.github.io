@@ -40,6 +40,7 @@
     <div class="row">
         <div class="center">
             <p>
+
             <h2 style="font-family: fantasy;">System.out.println("Hello World");</h2>
             </p>
             <p class="lead">Step by step, a little bit of success</p>
@@ -98,7 +99,8 @@
                                     <dt><span class="glyphicon glyphicon-map-marker" aria-hidden="true"/> 现居住地</dt>
                                     <dd>上海市闵行区</dd>
                                     <dt><span class="glyphicon glyphicon-globe" aria-hidden="true"/> Github主页</dt>
-                                    <dd><a href="https://github.com/zhuyunpeng" style="color: white;" target="_blank">https://github.com/zhuyunpeng</a></dd>
+                                    <dd><a href="https://github.com/zhuyunpeng" style="color: white;" target="_blank">https://github.com/zhuyunpeng</a>
+                                    </dd>
                                 </dl>
                             </div>
                             <div class="modal-footer">
@@ -247,19 +249,90 @@
                             <div class="modal-body">
                                 <blockquote class="second_block">
                                     <h4><span class="glyphicon glyphicon-tag" aria-hidden="true"/> 2015/8-至今
-                                        <a target="_blank" href="http://www.aisino.sh.cn/index.jsp">上海爱信诺航天信息有限公司</a></h4>
+                                        <a target="_blank" href="http://www.aisino.sh.cn/index.jsp">上海爱信诺航天信息有限公司</a>
+                                    </h4>
                                     <footer style="color: white">java开发及技术支持 | 软件研发部</footer>
                                     <h5>项目经验：</h5>
+
+                                    <h5><span class="glyphicon glyphicon-tags" aria-hidden="true"/> 2016/9-至今 企业税务管理系统
+                                    </h5>
+                                    <ul>
+                                        <li>项目描述：为了更好的落实“营改增”政策，公司推出企业税务管理系统，以便更好的管理税务业务。<br>
+                                            企业税控管理系统包括：销项管理子系统以及纳税申报子系统。<br>
+                                            销项管理子系统：主要是针对企业用户开票进行管理，包括企业通过Excel或数据库直接导入到企业税务管理系统的数据，
+                                            进行单据合并或拆分操作生成可开票的单据信息。
+                                            开票操作时，需要启动客户端进行监听一个固定的端口，开票时，应用本身发送http请求给客户端，客户端调用本地金税卡进行开票操作，
+                                            开票成功后将状态返回给应用本身，应用会将对应的单据转变成发票并保存到本地数据库。<br>
+                                            纳税申报子系统：对已开发票的数据，生成对应的纳税申报报表数据，导出并做申报操作。<br>
+                                            根据Aos系统本身提供的定时任务，通过建造者模式生成对应当期报表数据。系统采用echarts进行展示历史报表数据
+                                            <br>补充：开具电子发票时，采用WebService对发票进行签章操作。
+                                        </li>
+                                        <li>项目技术：
+                                            <ul>
+                                                <li>数据库：MySql</li>
+                                                <li>开发工具：eclipse,svn,navicat</li>
+                                                <li>使用框架：<a href="http://aos.aisino.com/" target="_blank">航信 AOS 平台</a>,HTTP协议,Socket,WebService,Ajax
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>责任描述：按照需求文档及原型设计，完成销项管理子系统的单据编辑，发票月度统计，系统批处理任务模块，
+                                            纳税申报管理的进项数据分类登记，销项数据分类登记，当期报表分析等模块，修改并优化所负责的模块。
+                                        </li>
+                                    </ul>
+
+                                    <hr>
+
+                                    <h5><span class="glyphicon glyphicon-tags" aria-hidden="true"/> 2016/11-2017/1
+                                        数据导入系统
+                                    </h5>
+                                    <ul>
+                                        <li>
+                                            项目描述：配合企业税务管理系统的子系统，主要用于数据导入功能。
+
+                                            <p>系统包括：用户管理，日志管理，邮件服务设置，数据源设置，任务计划参照，任务管理等模块。
+                                                系统用户登录该系统后，通过数据源设置界面指定数据来源：包括数据库（oracle,mysql,db2,sqlserver）,本地文件，FTP文件；
+                                                在任务计划参照界面配置 Cron 表达式，【前端采用 Cron js插件】。复制该表达式，在任务管理界面即可在正确的时间启动执行导入任务。
+                                                在日志管理模块可以查看详细的任务执行日志信息。
+                                            </p>
+
+                                        </li>
+                                        <li>项目技术：
+                                            <ul>
+                                                <li>数据库：MySql</li>
+                                                <li>开发工具：eclipse,svn,navicat</li>
+                                                <li>
+                                                    框架：Spring,Spring MVC,JPA,Quartz,log4j,Ajax
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>责任描述：按照需求文档及原型设计，完成数据源设置模块，并对前端效果进行完善。
+                                        </li>
+                                    </ul>
+
+                                    <hr>
 
                                     <h5><span class="glyphicon glyphicon-tags" aria-hidden="true"/> 2016/3-2016/9
                                         上汽财务增值税发票管理系统</h5>
                                     <ul>
-                                        <li>项目描述：为了更好的落实“营改增”相关要求，上海爱信诺为上汽财务提供税务管理系统的解决方案</li>
+                                        <li>项目描述：为了更好的落实“营改增”相关要求，上海爱信诺为上汽财务提供税务管理系统的解决方案
+                                            <p>
+                                                主要包括：系统管理模块，销项管理，报表查询，基础信息维护，快递管理，审核流等几个模块。
+                                                系统管理主要负责系统基础信息的维护，定时任务设置等；销项管理主要跟交易数据转单据进行开票操作有关；
+                                                报表主要是针对系统开票前和开票后的信息做一个统计查询操作；基础信息与审核流主要是针对基础信息的增删改有一个
+                                                审核操作从而避免因操作不当导致的数据异常；快递管理模块主要是生成配单信息符合上汽指定导入EMS系统生成快递单信息。<br>
+
+                                                主要流程：上汽财务SAP系统将业务交易数据以TXT文本推送至 FTP 服务器指定路径中，由发票管理系统去读取该路径下的所有文件，
+                                                通过交易认定，价税分离，最终生成发票管理系统的原始交易数据。导入成功后，系统会将导入结果以TXT文本的形式反馈
+                                                值FTP中，由SAP系统处理。对于进入发票管理系统的交易数据，客户可以选择定时或手工转换单据操作，转换成功的单据
+                                                同样可以进行手工或自动开票操作。
+
+                                            </p>
+                                        </li>
                                         <li>项目技术：
                                             <ul>
-                                                <li>数据库：oracle</li>
-                                                <li>开发工具：eclipse,svn,sqldeveloper</li>
-                                                <li>使用框架：Maven,JFinal,beetl,jwwee前端框架</li>
+                                                <li>数据库：Oracle</li>
+                                                <li>开发工具：eclipse,svn,sqldeveloper,git</li>
+                                                <li>使用框架：Maven,JFinal,beetl,jwwee前端框架,log4j,</li>
                                             </ul>
                                         </li>
                                         <li>责任描述：按照需求文档，完成数据导入，交易认定，价税分离，发票管理，快递管理以及基础信息维护模块，
@@ -267,22 +340,29 @@
                                         </li>
                                     </ul>
                                     <hr>
-                                    <h5><span class="glyphicon glyphicon-tags" aria-hidden="true"/> 2016/9-至今 企业税务管理系统
-                                    </h5>
+                                    <h5><span class="glyphicon glyphicon-tags" aria-hidden="true"/> 2015/9-2016/2
+                                        中外运发票管理系统</h5>
                                     <ul>
-                                        <li>项目描述：随着“营改增”的推广，企业对销项管理的要求越来越高，公司推出企业税务管理系统，以便更好的管理税务业务</li>
+                                        <li>项目描述：上海爱信诺为中外运提供的税务管理系统的解决方案
+                                            <p>
+                                                系统采用中间表接收交易数据，接收到的交易数据在各分中心能够独立的进行开票操作，开票以后的数据能够同步到指定的
+                                                总中心，最终在总中心能够查询到对应的统计数据并最终以图表的形式展示。
+                                                <br>
+                                                其中，分中心负责操作开票及同步的程序为C/S架构，总中心查看统计为B/S架构;
+                                            </p>
+                                        </li>
                                         <li>项目技术：
                                             <ul>
-                                                <li>数据库：mysql</li>
-                                                <li>开发工具：eclipse,svn,navicat</li>
-                                                <li>使用框架：<a href="http://aos.aisino.com/" target="_blank">航信 AOS 平台</a>
-                                                </li>
+                                                <li>数据库：SqlServer</li>
+                                                <li>开发工具：eclipse,sqlserver客户端,SVN</li>
+                                                <li>使用框架：前台DOJO框架，Socket,JPA</li>
                                             </ul>
                                         </li>
-                                        <li>责任描述：按照需求文档及原型设计，完成销项管理单据编辑，月度统计，系统批处理任务模块，纳税申报管理进项数据分类登记，销项数据分类登记，当期报表分析等模块
-                                            ，修改并完善所负责的模块。
+                                        <li>
+                                            责任描述：在原有的基础上进行二次开发及维护操作，包括客户端新增定时任务设置，总中心对各分中心分配发票设置。
                                         </li>
                                     </ul>
+
                                 </blockquote>
                                 <hr>
                                 <blockquote class="first_block">
